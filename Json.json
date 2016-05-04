@@ -1,0 +1,82 @@
+{
+    "name_of_database": "softech",
+    "name_of_table": "pgfplots",
+    "queries" : ["select min(a) from pgfplots;" , "select min(xcord) from pgfplots;", "select min(b) from pgfplots;", "select min(ycord) from pgfplots;"],
+    "xheading" : ["a"],
+    "yheading" : ["b"]
+}
+{
+    "xcolumn" : ["a", "xcord"],
+    "ycolumn" : ["b", "ycord"],
+    "color": ["red", "pink"],
+    "nature_of_line": ["dashed", "dotted"],
+    "mark_style": ["diamond", "square"],
+    "grid_style": "dotted",
+    "scale": 2,
+    "xlabel": "Cost",
+    "ylabel": "Year",
+    "title": "Production",
+    "legend_position": "north",
+    "legend": ["Saurabh","Topcoder"]
+}
+{
+    "xcolumn" : ["a"],
+    "ycolumn" : ["b"],
+    "grid_style": "dotted",
+    "color": ["red"],
+    "nature_of_line": ["dashed"],
+    "scale": 2,
+    "mark_style": ["diamond"],
+    "xlabel": "Cost",
+    "ylabel": "Year",
+    "title": "Production",
+    "legend_position": "north",
+    "legend" : "Time"
+}
+{
+    "x_y_col" : ["a","b"],
+    "no_labels" : 3,
+    "label_name" : ["a","b","c"],
+    "label_mark" : ["square","diamond","halfcircle"],
+    "label_color" : ["red","blue","green"],
+    "choices" : ["a","b","c","b","a"]
+}
+{
+    "xcolumn" : ["a", "xcord", "b"],
+    "ycolumn" : ["b", "ycord", "xcord"],
+    "legend" : ["one","two","three"],
+    "y_label" : "sqlite",
+    "x_label" : "sql",
+    "space_over_bars" : 0.05,
+    "xcord_legend" : 0.5,
+    "ycord_legend" : -0.1,
+    "anchor_position" : "north",
+    "interval_between_bars" : 0.7,
+    "title" : "Presentation"
+}
+{
+    "xcolumn" : ["a"],
+    "ycolumn" : ["b"],
+    "legend" : ["one"],
+    "y_label" : "sqlite",
+    "x_label" : "sql",
+    "space_over_bars" : 0.05,
+    "xcord_legend" : 0.5,
+    "ycord_legend" : -0.1,
+    "anchor_position" : "north",
+    "interval_between_bars" : 0.7,
+    "title" : "Presentation"
+}
+{
+    "xcolumn" : [0],
+    "ycolumn" : [0],
+    "legend" : ["one"],
+    "y_label" : "Min(Ycords)",
+    "x_label" : "Comparison Scale",
+    "space_over_bars" : 0.05,
+    "xcord_legend" : 0.5,
+    "ycord_legend" : -0.1,
+    "anchor_position" : "north",
+    "interval_between_bars" : 0.7,
+    "title" : "Min(m) among all other columns"
+}

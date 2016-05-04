@@ -1,0 +1,13 @@
+{
+    "xcolumn" : [0],
+    "ycolumn" : [0],
+    "legend" : ["one"],
+    "y_label" : "Min(Ycords)",
+    "x_label" : "Comparison Scale",
+    "space_over_bars" : 0.05,
+    "xcord_legend" : 0.5,
+    "ycord_legend" : -0.1,
+    "anchor_position" : "north",
+    "interval_between_bars" : 0.7,
+    "title" : "Min(m) among all other columns"
+}
